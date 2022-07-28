@@ -13,6 +13,11 @@
     background-color: #F4FAFD;
 }
 
+/* Ready to join section */
+.join-bg-color {
+    background-color: #289BDE;
+}
+
 .btn-color {
     background-color: #289BDE;
 }
@@ -26,6 +31,11 @@
 /* some student's feedback */
 .star-color {
     color: gold;
+}
+
+/* footer section */
+.footer-bg-color {
+    background-color: #161616;
 }
 
 /* ---------------
