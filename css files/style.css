@@ -1,3 +1,8 @@
+/* body section */
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
 /* slider carousel */
 .car {
     min-height: 100vh;
