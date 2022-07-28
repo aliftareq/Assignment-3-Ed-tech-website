@@ -8,13 +8,6 @@
 }
 
 /* E-learning institue */
-.width-40 {
-    width: 40%;
-}
-
-.width-60 {
-    width: 60%;
-}
 
 .bg-color {
     background-color: #F4FAFD;
@@ -24,16 +17,28 @@
     background-color: #289BDE;
 }
 
+/* our succesful student */
+.button {
+    width: 100px;
+    height: 50px;
+}
+
+/* some student's feedback */
+.star-color {
+    color: gold;
+}
+
 /* ---------------
     media query
 -------------- */
 
 /* media query for small device */
 @media screen and (max-width:576px) {
-
-    /* e-lerning */
-    .width-100 {
-        max-width: 100%;
+    .display {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -45,6 +50,13 @@
 
     .text-div-width {
         width: 75%;
+    }
+
+    .display {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
