@@ -13,9 +13,7 @@
 -------------- */
 
 /* media query for small device */
-@media screen and (max-width:576px) {
-    .img-size {}
-}
+@media screen and (max-width:576px) {}
 
 /* media query for medium devices */
 @media screen and (min-width:577px) and (max-width:992px) {
