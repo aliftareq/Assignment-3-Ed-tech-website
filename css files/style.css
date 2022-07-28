@@ -1,0 +1,40 @@
+/* slider carousel */
+.car {
+    min-height: 100vh;
+}
+
+.img-car {
+    object-fit: cover;
+}
+
+
+/* ---------------
+    media query
+-------------- */
+
+/* media query for small device */
+@media screen and (max-width:576px) {
+    .img-size {}
+}
+
+/* media query for medium devices */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .img-div-width {
+        width: 25%;
+    }
+
+    .text-div-width {
+        width: 75%;
+    }
+}
+
+/* media queary for large device */
+@media screen and (min-width:993px) and (max-width:1200px) {
+    .img-div-width {
+        width: 25%;
+    }
+
+    .text-div-width {
+        width: 75%;
+    }
+}
