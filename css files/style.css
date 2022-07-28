@@ -7,13 +7,35 @@
     object-fit: cover;
 }
 
+/* E-learning institue */
+.width-40 {
+    width: 40%;
+}
+
+.width-60 {
+    width: 60%;
+}
+
+.bg-color {
+    background-color: #F4FAFD;
+}
+
+.btn-color {
+    background-color: #289BDE;
+}
 
 /* ---------------
     media query
 -------------- */
 
 /* media query for small device */
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+
+    /* e-lerning */
+    .width-100 {
+        max-width: 100%;
+    }
+}
 
 /* media query for medium devices */
 @media screen and (min-width:577px) and (max-width:992px) {
